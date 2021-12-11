@@ -15,15 +15,15 @@ h1 {
 
 }
 
-h2, h3 {
+h2, h3,h4 {
     color: white;
     background-color: rgb(100, 159, 167);
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
-
-
     font-family: sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 nav a:active {
@@ -133,7 +133,7 @@ footer {
     font-family: sans-serif;
     padding-left: 30px;
     padding-right: 160px;
-    padding-bottom: 45px;
+    padding-bottom: 66px;
     border-bottom-color: rgb(100, 159, 167);
     border-bottom-width: 30px;
     border-bottom-style: solid;
@@ -147,7 +147,56 @@ footer {
     display: inline-block;
     font-family: sans-serif;
     
+}
 
-
-
+#menuheadings{
+    display: flexbox;
+    width: 300px;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 38%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#CommentButton{
+    display: block;
+    border: rgb(100, 159, 167);
+    background-color: rgb(190, 183, 183);
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 1px;
+    width: 200px;
+    margin-top: 20px;
+    font-size: 20px;
+    height: 80px;
+}
+ #CommentButton:hover{
+    background-color: rgb(100, 159, 167);
+}
+#PostButton{
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin-left:480px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.CommentP{
+    margin-top: 15px;
+    display: block;
+    width: 600px;
+    font-family: sans-serif;
+    word-wrap: break-word;
+    font-size: 20px;
+    border-style: solid;
+    border-width: 1px;
+}
+.Replies{
+    display: block;
+    width: 100px;
+    height: 40px;
+    margin-left:480px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: -10px;
 }
