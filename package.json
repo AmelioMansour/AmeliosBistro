@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AmelioMansour/Restaurant-Tool.git"
+    "url": "git+https://github.com/AmelioMansour/AmeliosBistro.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AmelioMansour/Restaurant-Tool/issues"
+    "url": "https://github.com/AmelioMansour/AmeliosBistro/issues"
   },
-  "homepage": "https://github.com/AmelioMansour/Restaurant-Tool#readme",
+  "homepage": "https://github.com/AmelioMansour/AmeliosBistro#readme",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
