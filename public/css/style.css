@@ -1,4 +1,4 @@
-header,body{
+header, body {
     margin-top: -22px;
     margin-left: 0px;
     margin-right: 0px;
@@ -36,7 +36,7 @@ ul {
     margin-top: -24px;
     margin-bottom: 0px;
     text-align: center;
-   
+
 
 }
 
@@ -62,26 +62,54 @@ img {
 
 #Pancakes {
     display: block;
-    
+
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    
-    
+
+
 }
 
 #navlogo {
     border: rgb(190, 183, 183);
     border-style: solid;
     border-width: 10px;
-    width: 143.7px;
+    width: 145.25px;
     float: left;
 
 }
 
 #titlehead {
     text-indent: -110px;
+}
 
+#shortinfo {
+    font-family: fantasy;
+    font-size: 48px;
+    text-align: center;
+    background-color: white;
+    padding: 3%;
+    border: rgb(100, 159, 167);
+    border-width: 15px;
+    border-style: solid;
+    border-bottom-style:none ;
+    border-bottom-color: none;
+    border-bottom-width: none;
 
+}
 
+#bottominfo {
+    font-size: 15px;
+    background-color: rgb(243, 242, 242);
+    margin-top: auto;    
+    text-align: center;
+    border: rgb(100, 159, 167);
+    border-width: 15px;
+    border-style: solid;
+    border-top-style:none ;
+}
+footer{
+    background-color: rgb(190, 183, 183);
+    font-size: 20px;
+    margin-top: 100px;
 }
