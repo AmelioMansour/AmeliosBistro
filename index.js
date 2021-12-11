@@ -27,7 +27,7 @@ app.get("/views/html/about.ejs", (req, res) => {
 });
 
 app.get("/views/html/menu1.ejs", (req, res) => {
-    res.render("/html/menu1.ejs");
+    res.render("./html/menu1.ejs");
 });
 
 
