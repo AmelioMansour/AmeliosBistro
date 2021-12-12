@@ -14,7 +14,7 @@
     <img src="/public/img/logo_with_white.png" id="navlogo" alt="Amelio's Bistro Logo">
     <h1 id="titlehead">Menu </h1>
     <nav>
-        <ul>
+        <ul id="navbar">
             <li>
                 <a href="/views/index.ejs">Home Page</a>
             </li>
@@ -31,9 +31,44 @@
     </nav>
 </header>
 
-<body>
+<body id="menubody">
     <h2 id="menuheadings">Our Menu</h2>
-    <h2>Breakfast</h2>
+    <h2>Breakfast </h2>
+    <p>All of our Breakfast items are $11 and are served with toast and your choice of hashbrowns or
+        a mini stack of pancakes. </p>
+    <br>
+    <ul id="breakfastitems">
+        <li>Ham and Cheese Omellete </li>
+        <li>Veggie Omellete </li>
+        <li>Chocolate Chip Panckes</li>
+        <li>Fruity Pebbles</li>
+    </ul>
+    <h2 id="lunchitems">Lunch</h2>
+    <ul>
+        <li>test</li>
+    </ul>
 </body>
+
+
+<footer>
+    <br>
+    <hr>
+
+    <p>&copy;Amelio's Bistro <br></p>
+    <address>555 Forest Hill Drive <br> Auburn Hills, MI 48009</address><br>
+    <p> Phone Number: <a href="tel:555-555-5555">555-555-5555</a></p>
+    <label for="email">Business Email:</label>
+    <a href="mailto: ameliosbistro@yahoo.com" id="email">ameliosbistro@yahoo.com</a> <br>
+    <label for="email">Personal Email:</label>
+    <a href="mailto: ameliomansour@yahoo.com" id="email">ameliomansour@yahoo.com</a> <br>
+    <br>
+    <p>Follow our socials!</p>
+    <a href="https://www.instagram.com" target="_blank">
+        <i class="fab fa-instagram-square fa-4x"></i>
+    </a>
+    <a href="https://www.facebook.com/" target="_blank">
+        <i class="fab fa-facebook-square fa-4x"></i>
+    </a>
+</footer>
 
 </html>
