@@ -32,6 +32,9 @@ app.get("/views/html/menu.ejs", (req, res) => {
 app.get("/views/html/order.ejs", (req, res) => {
     res.render("./html/order.ejs");
 });
+app.get("/views/html/cart.ejs", (req, res) => {
+    res.render("./html/cart.ejs");
+});
 
 
 

@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="/public/css/style.css">
     <script src="https://kit.fontawesome.com/4f63203b31.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="/public/img/logo_black.png" type="image/x-icon">
+    <script src="/public/js/script2.js" defer></script>
 </head>
 <header>
     <img src="/public/img/logo_with_white.png" id="navlogo" alt="Amelio's Bistro Logo">
-    <h1 id="titlehead">Order </h1>
+    <h1 class="titlehead">Order </h1>
     <nav>
         <ul id="navbar">
             <li>
@@ -32,7 +33,53 @@
 </header>
 
 <body>
+    <button class="navbuttons"><a href="/views/html/cart.ejs">Cart</a></button>
 
+    <body id="menubody">
+        <h2 id="menuheadings">Our Menu</h2>
+        <h2>Breakfast </h2>
+        <p>All of our Breakfast Entrees are $11 and are served with Toast and your choice of Hashbrowns or
+            a mini Stack of Pancakes. </p>
+        <br>
+        <div id="breakfast">
+            <ul id="breakfastitems">
+                <li><button class="Addtocart">ADD TO CART</button>Ham and Cheese Omellete </li>
+                <li><button class="Addtocart">ADD TO CART</button>Veggie Omellete </li>
+                <li><button class="Addtocart">ADD TO CART</button>Chocolate Chip Panckes</li>
+                <li><button class="Addtocart">ADD TO CART</button>Oreo Pancakes</li>
+            </ul>
+        </div>
+        <h2>Lunch</h2>
+        <p>All of our Lunch Entrees are $14 and come with a choice of fries or garlic bread</p>
+        <div id="lunch">
+            <ul id="lunchitems">
+                <li><button class="Addtocart">ADD TO CART</button>Chicken Quesadilla</li>
+                <li><button class="Addtocart">ADD TO CART</button>Greek Salad</li>
+                <li><button class="Addtocart">ADD TO CART</button>Chicken Marsala</li>
+                <li><button class="Addtocart">ADD TO CART</button>Flatbread Pizza</li>
+            </ul>
+        </div>
+        <h2>Dinner</h2>
+        <p>All of our Dinner Entrees are $16</p>
+        <div id="dinner">
+            <ul id="dinneritems">
+                <li><button class="Addtocart">ADD TO CART</button>Classic Cheese Burger</li>
+                <li><button class="Addtocart">ADD TO CART</button>Chicken Parmesan</li>
+                <li><button class="Addtocart">ADD TO CART</button>8 oz. Steak and Roasted Potatoes</li>
+            </ul>
+        </div>
+        <h2>Sides</h2>
+        <p>All sides are $5</p>
+        <div id="sides">
+            <ul id="sideitems">
+                <li><button class="Addtocart">ADD TO CART</button>French Fries</li>
+                <li><button class="Addtocart">ADD TO CART</button>Grilled Mac and Cheese</li>
+                <li><button class="Addtocart">ADD TO CART</button>Bread and Hummus</li>
+                <li><button class="Addtocart">ADD TO CART</button>Bacon Bacon Strips</li>
+            </ul>
+        </div>
+
+    </body>
 </body>
 <footer>
     <br>

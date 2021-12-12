@@ -80,7 +80,7 @@ img {
 
 }
 
-#titlehead {
+.titlehead {
     text-indent: -110px;
 }
 
@@ -209,6 +209,20 @@ footer {
     margin-top: -10px;
 }
 
+#menubody>div>ul>li {
+    font-family: sans-serif;
+    font-size: 20px;
+    display: block;
+    font-family: sans-serif;
+    
+    width: fit-content;
+    margin:3%;
+    font-size: 24px;
+    border-bottom-style:solid ;
+    border-bottom-color:black ;
+    border-bottom-width: 5px;
+
+}
 #menubody>ul>li {
     font-family: sans-serif;
     font-size: 20px;
@@ -228,4 +242,26 @@ footer {
     font-family: sans-serif;
     font-style: italic;
     font-size: 18px;
+}
+.navbuttons{
+    float: right;
+    background-color: rgb(218, 117, 117);
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    margin: 20px;
+}
+.Addtocart{
+    height: 50px;
+    width: 80px;
+    background-color: rgb(190, 183, 183);
+    margin-right: 10px;
+    border-radius: 40px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: rgb(100, 159, 167);
+}
+.Addtocart:hover{
+    background-color: rgb(100, 159, 167);
+    cursor: pointer;
 }
