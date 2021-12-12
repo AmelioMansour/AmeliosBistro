@@ -29,6 +29,10 @@ app.get("/views/html/about.ejs", (req, res) => {
 app.get("/views/html/menu.ejs", (req, res) => {
     res.render("./html/menu.ejs");
 });
+app.get("/views/html/order.ejs", (req, res) => {
+    res.render("./html/order.ejs");
+});
+
 
 
 const PORT = process.env.PORT || 3000;
