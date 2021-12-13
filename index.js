@@ -2,6 +2,7 @@ const express = require("express");
 const path = require("path");
 const ejs = require("ejs");
 const { request } = require("express");
+const res = require("express/lib/response");
 
 
 const app = express();
@@ -32,9 +33,18 @@ app.get("/views/html/menu.ejs", (req, res) => {
 app.get("/views/html/order.ejs", (req, res) => {
     res.render("./html/order.ejs");
 });
-app.get("/views/html/cart.ejs", (req, res) => {
+//
+
+app.get("/views/html/cart.ejs", (req, res) => {    
     res.render("./html/cart.ejs");
 });
+
+var array={};
+app.post("/gotocart/",(req,rep) =>{
+    app.locals.
+    res.render("./html/cart.ejs",orders)
+});
+
 
 
 

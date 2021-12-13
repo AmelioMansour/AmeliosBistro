@@ -10,6 +10,7 @@
     <script src="https://kit.fontawesome.com/4f63203b31.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="/public/img/logo_black.png" type="image/x-icon">
     <script src="/public/js/script2.js" defer></script>
+    <script src="/public/js/script3.js" defer></script>
 </head>
 <header>
     <img src="/public/img/logo_with_white.png" id="navlogo" alt="Amelio's Bistro Logo">
@@ -33,7 +34,12 @@
 </header>
 
 <body>
-    <button class="navbuttons"><a href="/views/html/cart.ejs">Cart</a></button>
+    <form action="/gotocart/" method=post>
+        <input type="submit" class=""value="Cart">
+    </form>
+
+
+    <button class="navbuttons" id="tocart"><a href="/views/html/cart.ejs">Cart</a></button>
 
     <body id="menubody">
         <h2 id="menuheadings">Our Menu</h2>

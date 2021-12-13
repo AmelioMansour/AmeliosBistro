@@ -245,12 +245,13 @@ footer {
 }
 .navbuttons{
     float: right;
-    background-color: rgb(218, 117, 117);
+    background-color: rgb(192, 129, 243);
     width: 100px;
     height: 60px;
     font-size: 20px;
     margin: 20px;
 }
+
 .Addtocart{
     height: 50px;
     width: 80px;
@@ -260,6 +261,8 @@ footer {
     border-width: 6px;
     border-style: solid;
     border-color: rgb(100, 159, 167);
+    
+    
 }
 .Addtocart:hover{
     background-color: rgb(100, 159, 167);

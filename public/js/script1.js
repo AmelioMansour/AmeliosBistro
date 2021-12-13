@@ -54,6 +54,7 @@ function Reply(oneclick){
     
 }
 
+
 function PostRep(oneclick){
     x=x+1;
     spot=onclick(this);
