@@ -268,3 +268,24 @@ footer {
     background-color: rgb(100, 159, 167);
     cursor: pointer;
 }
+.ordereditems{
+    text-align: left;
+    font-style: normal;
+    border-right-width:5px ;
+    border-right-style:solid ;
+    border-right-color:black ;
+    
+    margin: 30px;
+    padding-right:-30px;
+}
+.delbuts{
+    background-color: rgb(255, 70, 70);
+    width: 80px;
+    height: 40px;
+    font-size: 18px;
+    margin: 15px;
+    display: inline;
+    margin-left: 80px;
+    margin-bottom: -20px;
+
+}

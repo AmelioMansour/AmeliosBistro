@@ -3,6 +3,7 @@ const path = require("path");
 const ejs = require("ejs");
 const { request } = require("express");
 const res = require("express/lib/response");
+const req = require("express/lib/request");
 
 
 const app = express();
@@ -35,14 +36,14 @@ app.get("/views/html/order.ejs", (req, res) => {
 });
 //
 
-app.get("/views/html/cart.ejs", (req, res) => {    
+app.get("/views/html/cart.ejs", (req, res) => {
     res.render("./html/cart.ejs");
 });
 
-var array={};
-app.post("/gotocart/",(req,rep) =>{
-    app.locals.
-    res.render("./html/cart.ejs",orders)
+app.post("/gotocart/", (req, res) => {
+    x=req.doc
+    console.log(Array.from(orders));
+    res.render("./html/order.ejs");
 });
 
 
