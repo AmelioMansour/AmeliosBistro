@@ -54,41 +54,26 @@ function addtoDOM(categoryname, itemname) {
     item.textContent = ("$" + cost + " " + itemname);
     referenceNode.parentNode.insertBefore(item, referenceNode.nextSibling);
     //delete button
-    
+
     var referenceNode = document.querySelector("#ordereditems");
     delbut = document.createElement("button");
     delbut.addEventListener('click', deletebutton);
-    delbut.setAttribute("class","delbuts");
-    delbut.setAttribute("id","delbut");
-    delbut.textContent=("Delete")
+    delbut.setAttribute("class", "delbuts");
+    delbut.setAttribute("id", "delbut");
+    delbut.textContent = ("Delete")
     referenceNode.parentNode.insertBefore(delbut, referenceNode);
 
 
 }
-function deletebutton(){
-    
+function deletebutton() {
+
     var referenceNode = document.querySelector("#delbut");
     referenceNode.remove();
     var referenceNode = document.querySelector("#ordereditems");
     console.log();
     referenceNode.remove();
-    
+
 }
-
-
-
-// function secret() {
-//     let y = 0
-//     var referenceNode = document.querySelector("#menuheadings");
-
-//     var secretp = document.createElement("p");
-//     secretp.setAttribute("id", "secretp");
-//     secretp.Content = orders;
-//     secretp.setAttribute = ("display", "none");
-//     referenceNode.parentNode.insertBefore(secretp, referenceNode.nextSibling);
-//     console.log(secretp.Content)
-//     y = y + 1;
-// }
 function onclick(ele) {
     var id = ele.id;
     return id;

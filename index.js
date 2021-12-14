@@ -41,9 +41,9 @@ app.get("/views/html/cart.ejs", (req, res) => {
 });
 
 app.post("/gotocart/", (req, res) => {
-    
-    res.render("./html/cart.ejs",orders);
-    
+
+    res.render("./html/cart.ejs", orders);
+
 });
 
 // app.locals.orders = null;

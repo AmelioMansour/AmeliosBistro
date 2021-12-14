@@ -208,6 +208,7 @@ footer {
     margin-bottom: 20px;
     margin-top: -10px;
 }
+
 /* order items */
 #menubody>div>ul>li {
     font-family: sans-serif;
@@ -216,40 +217,44 @@ footer {
     font-family: sans-serif;
     font-style: bold;
     width: fit-content;
-    margin:3%;
+    margin: 3%;
     font-size: 24px;
-    border-bottom-style:solid ;
-    border-bottom-color:black ;
+    border-bottom-style: solid;
+    border-bottom-color: black;
     border-bottom-width: 5px;
 
 }
+
 #menubody>ul>li {
     font-family: sans-serif;
     font-size: 20px;
     display: block;
     font-family: sans-serif;
-    
+
     width: fit-content;
-    margin:3%;
+    margin: 3%;
     font-size: 24px;
-    border-bottom-style:solid ;
-    border-bottom-color:black ;
+    border-bottom-style: solid;
+    border-bottom-color: black;
     border-bottom-width: 5px;
 
 }
-#menubody>p{
+
+#menubody>p {
     text-align: center;
     font-family: sans-serif;
     font-style: italic;
     font-size: 18px;
 }
-#menubody>p{
+
+#menubody>p {
     text-align: center;
     font-family: sans-serif;
     font-style: italic;
     font-size: 18px;
 }
-.navbuttons{
+
+.navbuttons {
     float: right;
     background-color: rgb(192, 129, 243);
     width: 100px;
@@ -257,34 +262,38 @@ footer {
     font-size: 20px;
     margin: 20px;
 }
+
 /* order items page */
-.Addtocart{
+.Addtocart {
     height: 50px;
     width: fit-content;
     background-color: rgb(190, 183, 183);
     margin-right: 10px;
     border: none;
     background-color: white;
-    font-weight: bold;  
+    font-weight: bold;
     font-size: 25px;
-   
-    
+
+
 }
-.Addtocart:hover{
+
+.Addtocart:hover {
     background-color: rgb(100, 159, 167);
     cursor: pointer;
 }
-.ordereditems{
+
+.ordereditems {
     text-align: left;
     font-style: normal;
-    border-right-width:5px ;
-    border-right-style:solid ;
-    border-right-color:black ;
-    
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-right-color: black;
+
     margin: 30px;
-    padding-right:-30px;
+    padding-right: -30px;
 }
-.delbuts{
+
+.delbuts {
     background-color: rgb(255, 70, 70);
     width: 80px;
     height: 40px;
