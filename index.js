@@ -41,10 +41,27 @@ app.get("/views/html/cart.ejs", (req, res) => {
 });
 
 app.post("/gotocart/", (req, res) => {
-    x=req.doc
-    console.log(Array.from(orders));
-    res.render("./html/order.ejs");
+    
+    res.render("./html/cart.ejs",orders);
+    
 });
+
+// app.locals.orders = null;
+
+
+// app.post("/additem/", (req, res) => {
+
+//     if (app.locals.orders == null) {
+//         // var orders = [];
+//         app.locals.orders = {};
+//         console.log("here");
+//     }
+
+//     orders.add[req.body];
+//     console.log(req.body);
+//     console.log(orders);
+
+// });
 
 
 

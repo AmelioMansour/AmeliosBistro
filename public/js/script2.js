@@ -13,7 +13,7 @@ function AddCart(oneclick) {
 
     spot = onclick(this)
     var referenceNode = document.getElementById(spot);
-    itemname = referenceNode.nextSibling.textContent;
+    itemname = referenceNode.textContent;
     categoryname = referenceNode.parentElement.parentElement.id;
     if (categoryname in orders) {
         categoryname = categoryname + x;
@@ -59,6 +59,7 @@ function addtoDOM(categoryname, itemname) {
     delbut = document.createElement("button");
     delbut.addEventListener('click', deletebutton);
     delbut.setAttribute("class","delbuts");
+    delbut.setAttribute("id","delbut");
     delbut.textContent=("Delete")
     referenceNode.parentNode.insertBefore(delbut, referenceNode);
 
@@ -66,26 +67,28 @@ function addtoDOM(categoryname, itemname) {
 }
 function deletebutton(){
     
-    delbut.remove();
-    var referenceNode = document.querySelector("#ordereditems");
+    var referenceNode = document.querySelector("#delbut");
     referenceNode.remove();
-    referenceNode.parentNode.remove();
+    var referenceNode = document.querySelector("#ordereditems");
+    console.log();
+    referenceNode.remove();
+    
 }
 
 
 
-function secret() {
-    let y = 0
-    var referenceNode = document.querySelector("#menuheadings");
+// function secret() {
+//     let y = 0
+//     var referenceNode = document.querySelector("#menuheadings");
 
-    var secretp = document.createElement("p");
-    secretp.setAttribute("id", "secretp");
-    secretp.Content = orders;
-    secretp.setAttribute = ("display", "none");
-    referenceNode.parentNode.insertBefore(secretp, referenceNode.nextSibling);
-    console.log(secretp.Content)
-    y = y + 1;
-}
+//     var secretp = document.createElement("p");
+//     secretp.setAttribute("id", "secretp");
+//     secretp.Content = orders;
+//     secretp.setAttribute = ("display", "none");
+//     referenceNode.parentNode.insertBefore(secretp, referenceNode.nextSibling);
+//     console.log(secretp.Content)
+//     y = y + 1;
+// }
 function onclick(ele) {
     var id = ele.id;
     return id;
